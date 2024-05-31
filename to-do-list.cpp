@@ -58,7 +58,7 @@ int main()
                 cout<<"                VIEW TASK                "<<endl;
                 cout<<"-----------------------------------------"<<endl;
                 print_tasks(tasks, task_count);
-            break;
+                break;
         case 3:
             {
                 system("cls");
@@ -82,7 +82,7 @@ int main()
                 {
                     cout<<"Invalid task number."<<endl;
                 }
-                    break;    
+                break;    
             }
         case 4:
             {
@@ -94,8 +94,9 @@ int main()
 
                 if (answer = y)
                 {
-                    cout<<"Terminating the program!";
-                }      
+                    cout<<"Terminating the program!"<<endl;
+                }   
+                break;
             }
         
         default:
